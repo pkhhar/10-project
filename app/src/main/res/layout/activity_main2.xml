@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+android:orientation="vertical"
+    >
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:id="@+id/btnOtherPage"
+        android:text="←"
+        android:background="#00AAAAAA"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="כותרת : אודות החברה"
+
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+
+        android:text="החברה בעצם היא רשימה של מוצרים. החברה נבנת על ידי איתי פליישר.זה הוא אודות החברה"
+        />
+
+</LinearLayout>

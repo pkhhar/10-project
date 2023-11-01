@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".firstFragment"
+    android:layoutDirection="ltr"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="שם מוצר"
+        tools:layout_editor_absoluteX="313dp"
+        tools:layout_editor_absoluteY="61dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:layout_marginRight="30dp"
+        />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:background="#F3F3F3"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        />
+    <Button
+        android:id="@+id/btnPlus"
+        android:textSize="35dp"
+        android:text="+"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="110dp"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="@drawable/round"/>
+
+
+</FrameLayout>
